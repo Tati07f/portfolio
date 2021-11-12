@@ -557,3 +557,8 @@ a:hover{
 .div_soon:hover .soon {
   visibility: visible;
 }
+
+.main_title_php {
+    background-color: #ffffff;
+    color: #1C8CA1;
+}
