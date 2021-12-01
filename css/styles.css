@@ -149,10 +149,12 @@ p {
 }
 
 #button-on-wave,.button-on-grey, #button-on-violet, #button-on-blue, #button-on-green, .hero>.button, .button{
+   
     padding: 8px 30px;
 	border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
+    
 }
 
 
@@ -490,6 +492,7 @@ footer{
 		padding: 0px 7px 14px;
 	}
     .div-image{
+        margin: 10%;
         max-width: 70%;
     }
     
@@ -565,6 +568,7 @@ footer{
         max-width: 90%;
         margin: 0 auto;
         padding-bottom: 40px;
+       
     }
     
       a>p{
@@ -629,6 +633,12 @@ footer{
          font-size: 1.1em;
     }
     
-    
+    .div-image{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px 20px;
+        clear: both;
+        display: table;
+    }
     
 }
