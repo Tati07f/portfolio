@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* name font  */
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=The+Nautigal&display=swap");
 
 html, 
 html * {
@@ -26,7 +28,8 @@ img {
 .div-image{
    height: 80%;
    width: 80%;
-   object-fit: contain;
+   
+    object-fit: contain;
 }
 
 .footer-main {
@@ -201,7 +204,7 @@ p {
     /*font-weight: 600;*/
      /*new*/
     font-weight: bold;
-    background: #f3f0f1;
+    background: #fffff;
     transition: all 0.1s ease-in-out;
     box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
         6px 6px 10px rgba(0, 0, 0, 0.2);
@@ -244,7 +247,7 @@ background: linear-gradient(131deg, rgba(255,244,235,1) 0%, rgba(255,255,255,1) 
 
 .info-box-tan {
     border-radius: 30px;
-	background-color:#FFF1E9;
+	background-color:#FDF6F6;
 	color: #B422CA;
 	padding: 30px 20px 60px;
 	text-align: center;
@@ -259,7 +262,7 @@ background: linear-gradient(131deg, rgba(255,244,235,1) 0%, rgba(255,255,255,1) 
 
 .info-box-dark {
     border-radius: 30px;
-	background-color: #F7EFFF;
+	background-color: #FDF6F6;
 	color: #B422CA;
 	padding: 30px 20px 60px;
     font-weight: 700;
@@ -458,8 +461,7 @@ a:hover{
 .round_photo {
     max-width: 300px;
     border-radius: 50%;
-    box-shadow: 12px 5px 20px rgba(13,87,100,0.8);
-  
+    box-shadow: 4px 4px 20px rgba(255,100,255,0.8);
 }
 
 .logo-shad {
@@ -480,7 +482,7 @@ a:hover{
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: aliceblue
+    background-color: white;
 }
 
 
@@ -494,31 +496,32 @@ a:hover{
 .title-name {
     
     color: #14B9C3;
-    font-size: 2.8em;
-    margin-bottom: 10px;
-    font-weight: 600;
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: 800;
     text-transform: none;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    
+    /*color: #00FFE3;*/
+    background: rgb(255,21,248);
+    background: radial-gradient(circle, rgba(255,21,248,1) 0%, rgba(70,0,154,1) 95%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
 }
 
 .p_about {
-    color: #2D575F;
+    color: #7105B0;
     font-size: 1em;
     letter-spacing: 2px;
 }
 
 
 .link {
-    color: rgba(13,88,102,1.00);
+    color: #7105B0;
 }
-
-.title-soon {
-    color: #414141;
-    font-weight: 600;
-    background-color: #3DBAC1;
-    padding: 1em;
-}
-
 
 
 .div_soon {
@@ -787,4 +790,25 @@ footer{
 .first_box_title, .second_box_title, .third_box_title{
     margin: 2em 0;
 }
+
+
+.logo_name {
+    float: left;
+    color: deeppink;
+    font-family: 'The Nautigal', cursive;
+    font-size: 6em;
+    
+    background: rgb(255,219,219);
+background: linear-gradient(90deg, rgba(255,219,219,1) 0%, rgba(238,134,255,1) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+}
+
+.logo_name {
+    
+}
+
 
