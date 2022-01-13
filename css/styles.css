@@ -360,6 +360,14 @@ opacity: 1;
 .fon{
     z-index: 1;
     position: relative;
+    
+}
+
+.fon-empty{
+    z-index: 1;
+    position: relative;
+    opacity: 0;
+    
 }
 
 
