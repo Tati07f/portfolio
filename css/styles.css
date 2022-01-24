@@ -215,9 +215,9 @@ p {
 
  .button_g, .button_b{
     clear: both;
-    font-size: 18px;
+    font-size: 30px;
      font-weight: bold;
-    display: block;
+     display: block;
     text-decoration: none;
 }
  .button_b{
@@ -569,6 +569,47 @@ footer{
 }
 
 
+.second_box_title , .third_box_title {
+
+	background-color: #F9F3FF;
+    opacity: 0.9;
+	background-size: cover;
+	padding: 50px 30px 40px 30px;
+	text-align: center;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.second_box_title h1{
+    font-size: 3em;
+    color:#6769C8;
+}
+
+.first_box_title{
+    color:#6769C8;
+}
+.first_box_title, .second_box_title, .third_box_title{
+    margin: 2em 0;
+}
+
+
+.logo_name {
+    float: left;
+    color: deeppink;
+    font-family: 'The Nautigal', cursive;
+    font-size: 6em;
+    
+    background: rgb(255,219,219);
+background: linear-gradient(90deg, rgba(255,219,219,1) 0%, rgba(238,134,255,1) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+}
+
+.logo_name {
+    
+}
 
 
 
@@ -723,10 +764,19 @@ footer{
 /* mobile View*/    
 @media screen and (max-width: 767px) {
     
-    h1{
-        font-size: 3em;
-        margin: 0.8em;
-    } 
+    
+  .second_box_title h1{
+       margin: 10px;
+      font-size: 36px;
+      
+    }
+    .first_box_title h1{
+        font-size: 42px;
+         margin: 10px;
+    }
+    .design h1{
+        font-size: 56px;
+    }
     
       a>p{
       font-size: 1.2em;  
@@ -777,46 +827,5 @@ footer{
 }
 
 
-.second_box_title , .third_box_title {
-
-	background-color: #F9F3FF;
-    opacity: 0.9;
-	background-size: cover;
-	padding: 50px 30px 40px 30px;
-	text-align: center;
-    color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-.second_box_title h1{
-    font-size: 3em;
-    color:#6769C8;
-}
-
-.first_box_title{
-    color:#6769C8;
-}
-.first_box_title, .second_box_title, .third_box_title{
-    margin: 2em 0;
-}
-
-
-.logo_name {
-    float: left;
-    color: deeppink;
-    font-family: 'The Nautigal', cursive;
-    font-size: 6em;
-    
-    background: rgb(255,219,219);
-background: linear-gradient(90deg, rgba(255,219,219,1) 0%, rgba(238,134,255,1) 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    
-}
-
-.logo_name {
-    
-}
 
 
